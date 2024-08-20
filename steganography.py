@@ -4,7 +4,7 @@ import io
 ZERO_WIDTH_SPACE = "​"
 
 
-def can_encode(text: bool, hidden_text: str, encoding: str = "utf-8") -> bool:
+def can_encode(text: str, hidden_text: str, encoding: str = "utf-8") -> bool:
     """
     Returns true if the hidden text can be encoded in the text.
     """
